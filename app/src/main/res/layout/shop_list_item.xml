@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.5">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/shop_iv_pic"-->
+            <!--android:layout_width="@dimen/activity_size_120"-->
+            <!--android:layout_height="@dimen/activity_size_120"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:layout_centerInParent="true"/>-->
+    <!--</RelativeLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+        <!--<TextView-->
+            <!--android:id="@+id/shop_tv_name"-->
+            <!--android:layout_width="@dimen/activity_size_200"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="商品名称"-->
+            <!--android:textSize="@dimen/activity_size_18"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:layout_marginTop="@dimen/activity_size_20"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/shop_tv_descrip"-->
+                <!--android:layout_width="@dimen/activity_size_200"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:ellipsize="end"-->
+                <!--android:lines="2"-->
+                <!--android:text="商品介绍"-->
+                <!--android:textSize="@dimen/activity_size_15"-->
+                <!--android:layout_marginTop="@dimen/activity_size_5"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/shop_tv_price"-->
+                <!--android:layout_width="@dimen/activity_size_200"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="¥666/斤"-->
+                <!--android:textColor="@color/homepage_orange"-->
+                <!--android:textSize="@dimen/activity_size_25"-->
+                <!--android:layout_marginBottom="@dimen/activity_size_15"/>-->
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/shop_one"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/shop_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_size_150"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:layout_marginRight="@dimen/activity_size_10"
+                android:layout_marginTop="@dimen/activity_size_10"
+                android:background="@drawable/icon_error"
+                android:scaleType="centerCrop"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shop_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:text="商品名"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/shop_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="dsadasdasdasdasd"/>
+
+
+        <TextView
+            android:id="@+id/shop_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:text="¥666/斤"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shop_two"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/shop_img2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_size_150"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:layout_marginRight="@dimen/activity_size_10"
+                android:layout_marginTop="@dimen/activity_size_10"
+                android:background="@drawable/icon_error"
+                android:scaleType="centerCrop"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shop_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:text="商品名"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/shop_content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="dsadasdasdasdasd"/>
+
+
+        <TextView
+            android:id="@+id/shop_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:text="¥666/斤"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <!--<GridView-->
+        <!--android:id="@+id/shop_grid"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:numColumns="2"-->
+        <!--android:horizontalSpacing="@dimen/activity_size_10"-->
+        <!--android:verticalSpacing="@dimen/activity_size_10"-->
+        <!--android:listSelector="@color/white"></GridView>-->
+
+    <FrameLayout
+        android:id="@+id/show_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"></FrameLayout>
+
+</LinearLayout>

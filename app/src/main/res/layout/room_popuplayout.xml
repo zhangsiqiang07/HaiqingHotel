@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.25dp"
+        android:layout_alignParentTop="true"
+        android:background="#fa7829" />
+
+    <TextView
+        android:id="@+id/pop_roomCount1"
+        style="@style/pop_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1间" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/list_line" />
+
+    <TextView
+        android:id="@+id/pop_roomCount2"
+        style="@style/pop_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2间" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/list_line" />
+
+    <TextView
+        android:id="@+id/pop_roomCount3"
+        style="@style/pop_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3间" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/list_line" />
+
+    <TextView
+        android:id="@+id/pop_roomCount4"
+        style="@style/pop_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4间" />
+
+
+</LinearLayout>

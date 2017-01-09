@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/activity_top"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_size_40"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/mine_btn_myRoom"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我预订的房间"
+            android:textColor="@color/blue"
+            android:background="@color/whilte"/>
+
+        <Button
+            android:id="@+id/mine_btn_myCatering"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我预订的餐饮"
+            android:textColor="@color/blue"
+            android:background="@color/whilte"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/mine_select0"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_2"
+            android:background="@drawable/btn_selected_fragment0"/>
+        <Button
+            android:id="@+id/mine_select1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_2"
+            android:background="@drawable/btn_selected_fragment1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mine_order_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_size_100"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2 ">
+        <ImageView
+            android:id="@+id/facility_iv_itemPic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_80"
+            android:layout_margin="@dimen/activity_size_5"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/facility_tv_itemName"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="介绍介绍介绍标题"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_size_18"/>
+
+        <TextView
+            android:id="@+id/facility_tv_itemExcerpt"
+            android:layout_marginTop="@dimen/activity_size_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍" />
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="2.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="@dimen/activity_size_13"
+            android:layout_height="@dimen/activity_size_22"
+            android:background="@mipmap/right_black_arrow"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

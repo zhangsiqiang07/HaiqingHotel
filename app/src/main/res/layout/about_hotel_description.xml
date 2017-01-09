@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editoril_material_gender"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_color" >
+
+
+    <TextView
+        android:id="@+id/tv_car_wait_spent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_size_20"
+        android:layout_marginRight="20dp"
+        android:text="    青岛海情大酒店座落于青岛著名的海滨大道东海路，是一座汇聚欧陆风情酒店。其占地面积7万平方米，花园绿地面积2.6万平方米，建筑面积5.9万平方米。北 依市中心，南临大海，位置优越，交通便利，距火车站11.5公里，飞机场32公里，码头15公里。由A座、B座和C座三座不同风格的酒店所组成。\n    B座为酒店一期，1998年3月18日正式营业，2001年8月14日被省旅游局正式批准为四星级旅游涉外饭店，建筑格局新颖别致，品字式的住宿环境 别具一格，茶苑、欧州廊等特色项目更让人耳目一新；C座开业于2006年6月10日，是集住宿、商务于一体的海情公寓式酒店，配套完善，简约大方， 为商旅客人的旅游出行带来便捷；A座为酒店二期，于2007年6月28日试营业，7月正式投入运营，拥有标准五道游泳池，新增设六声道同声传译国际会议中心，规模宏大，设施先进，受到国内外客人尤其是高端客人的青睐。\n    传统珍馐美馔，西式饕餮大餐，各地美食精粹，青岛地方名吃齐聚海情，中餐厅宴会厅可接待900人同时用餐，菜品涵盖鲁、川、粤等中餐八大菜系，是高档宴会的理想选择；另外还配有日、韩、意等多国籍特色风味餐厅，一站式满足您的美食需求，让您一饱口福。\n    集休闲、娱乐于一身的海情康体中心，汇聚了彰显国威的乒乓、出身贵族的壁球、绅士意味的桌球、休闲随意的沙壶、畅游一池碧水、放松一天奔波。\n    青岛海情大酒店秉承 “亲情、友情、真情”的服务理念，诚信经营，赢得中外宾客广泛赞誉，“温馨家园”的服务品牌闻名遐迩，多次荣获山东省优秀星级饭 店、06年度省“诚信旅游示范单位”及“2006年和2007年青岛国际帆船赛旅游接待突出贡献单位”等荣誉称号。为“北京2008奥林匹克运动会指定官 方接待饭店”。
+"
+        />
+</RelativeLayout>

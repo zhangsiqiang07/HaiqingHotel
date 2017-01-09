@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whilte"
+    android:orientation="vertical"
+    >
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!-->-->
+
+        <!--&lt;!&ndash;顶部ViewPager&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/activity_size_210"-->
+                    <!--android:background="@mipmap/viewpager_pic0" />-->
+            <!--</LinearLayout>-->
+            <!--&lt;!&ndash;预订栏&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/activity_size_140"-->
+                <!--android:orientation="vertical">-->
+
+                <!--&lt;!&ndash;第一行&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/activity_size_40">-->
+                    <!--&lt;!&ndash;入住&ndash;&gt;-->
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1">-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:textSize="@dimen/text_size_15"-->
+                            <!--android:text="@string/home_menu_text0" />-->
+                    <!--</RelativeLayout>-->
+                    <!--&lt;!&ndash;天数&ndash;&gt;-->
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1">-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv_daycount"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:text="@string/home_menu_text1"-->
+                            <!--android:textSize="@dimen/text_size_15"-->
+                            <!--android:textColor="@color/homepage_orange" />-->
+                    <!--</RelativeLayout>-->
+                    <!--&lt;!&ndash;离店&ndash;&gt;-->
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1">-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:textSize="@dimen/text_size_15"-->
+                            <!--android:text="@string/home_menu_text2" />-->
+                    <!--</RelativeLayout>-->
+                <!--</LinearLayout>-->
+                <!--&lt;!&ndash;第二行&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/activity_size_40"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/home_rl_inputDate"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1">-->
+                        <!--&lt;!&ndash;入住日期&ndash;&gt;-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_centerHorizontal="true"-->
+                            <!--android:orientation="horizontal">-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/tv_inday"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_gravity="center_vertical"-->
+                                <!--android:text="3月28日"-->
+                                <!--android:textColor="@color/homepage_top_bule"-->
+                                <!--android:textSize="@dimen/text_size_20" />-->
+
+
+                        <!--</LinearLayout>-->
+                    <!--</RelativeLayout>-->
+                    <!--&lt;!&ndash;中间控制空白布局&ndash;&gt;-->
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1.5">-->
+
+                    <!--</RelativeLayout>-->
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/home_rl_outputDate"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1">-->
+                        <!--&lt;!&ndash;离店日期&ndash;&gt;-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_centerHorizontal="true"-->
+                            <!--android:orientation="horizontal">-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/tv_outday"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_gravity="center_vertical"-->
+                                <!--android:text="3月30日"-->
+                                <!--android:textColor="@color/homepage_top_bule"-->
+                                <!--android:textSize="@dimen/text_size_20" />-->
+
+
+                        <!--</LinearLayout>-->
+                    <!--</RelativeLayout>-->
+                <!--</LinearLayout>-->
+                <!--&lt;!&ndash;第三行&ndash;&gt;-->
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/activity_size_60">-->
+
+                    <!--<Button-->
+                        <!--android:id="@+id/home_btn_reserve_now"-->
+                        <!--android:layout_width="@dimen/activity_size_336"-->
+                        <!--android:layout_height="@dimen/activity_size_40"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:background="@drawable/button_shape"-->
+                        <!--android:text="@string/home_btn_reserve_now"-->
+                        <!--android:textColor="@color/whilte"-->
+                        <!--android:textSize="@dimen/text_size_14" />-->
+                <!--</RelativeLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--&lt;!&ndash;酒店位置、联系我们、酒店详情&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/activity_size_51"-->
+                <!--android:orientation="horizontal">-->
+                <!--&lt;!&ndash;酒店位置的外部布局&ndash;&gt;-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/home_btn_location"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1">-->
+                    <!--&lt;!&ndash;酒店位置的内部布局&ndash;&gt;-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_gravity="center_horizontal">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="@dimen/activity_size_12"-->
+                            <!--android:layout_height="@dimen/activity_size_20"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:background="@mipmap/home_location_icon" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:layout_marginLeft="@dimen/activity_size_5"-->
+                            <!--android:text="@string/home_btn_location" />-->
+                    <!--</LinearLayout>-->
+                <!--</RelativeLayout>-->
+
+                <!--&lt;!&ndash;联系我们的外部布局&ndash;&gt;-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/home_btn_contact_us"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1">-->
+                    <!--&lt;!&ndash;联系我们内部布局&ndash;&gt;-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_gravity="center_horizontal">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="@dimen/activity_size_20"-->
+                            <!--android:layout_height="@dimen/activity_size_20"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:background="@mipmap/home_contact_icon" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:layout_marginLeft="@dimen/activity_size_5"-->
+                            <!--android:text="@string/home_btn_contact_us" />-->
+                    <!--</LinearLayout>-->
+                <!--</RelativeLayout>-->
+
+                <!--&lt;!&ndash;酒店详情外部布局&ndash;&gt;-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/home_btn_details"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1">-->
+                    <!--&lt;!&ndash;酒店详情的内部布局&ndash;&gt;-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_gravity="center_horizontal">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="@dimen/activity_size_20"-->
+                            <!--android:layout_height="@dimen/activity_size_20"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:background="@mipmap/home_details_icon" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:layout_marginLeft="@dimen/activity_size_5"-->
+                            <!--android:text="@string/home_btn_hotel_details" />-->
+                    <!--</LinearLayout>-->
+                <!--</RelativeLayout>-->
+            <!--</LinearLayout>-->
+            <!--&lt;!&ndash;橙色分隔线&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="@dimen/activity_size_360"-->
+                <!--android:layout_height="@dimen/activity_size_20"-->
+                <!--android:layout_gravity="center_horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="——————————————"-->
+                    <!--android:textColor="@color/homepage_orange" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/activity_size_17"-->
+                        <!--android:layout_height="@dimen/activity_size_16"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_marginLeft="@dimen/activity_size_15"-->
+                        <!--android:background="@mipmap/home_onsale_icon" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:layout_marginLeft="@dimen/activity_size_10"-->
+                        <!--android:text="@string/home_line_onsale"-->
+                        <!--android:textColor="@color/homepage_orange"-->
+                        <!--android:textSize="@dimen/text_size_15" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="———————————"-->
+                    <!--android:textColor="@color/homepage_orange" />-->
+            <!--</LinearLayout>-->
+
+
+
+            <!--<include layout="@layout/onsale_list_item"></include>-->
+            <!--<include layout="@layout/onsale_list_item"></include>-->
+            <!--<include layout="@layout/onsale_list_item"></include>-->
+
+            <!--促销列表-->
+            <cn.xiaocool.haiqinghotel.ui.list.PullToRefreshListView
+            android:id="@+id/lv_comprehensive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/title_color">
+            </cn.xiaocool.haiqinghotel.ui.list.PullToRefreshListView>
+
+
+        <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+</LinearLayout>

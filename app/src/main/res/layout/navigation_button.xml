@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_color">
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1d1d1"/>
+
+        <LinearLayout
+            android:id="@+id/navi_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bottom_bar_normal_bg"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <!--首页-->
+            <RelativeLayout
+                android:id="@+id/rl_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_home"
+                    style="@style/MMTabButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/btn_selected_home"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="11.5dip"
+                    android:scaleType="matrix"
+                    android:text="首页"
+                    android:textColor="@color/colorbutton"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+
+
+            <!--设施-->
+            <RelativeLayout
+                android:id="@+id/rl_facility"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_facility"
+                    style="@style/MMTabButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/btn_selected_facility"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="11.5dip"
+                    android:scaleType="matrix"
+                    android:text="设施"
+                    android:textColor="@color/colorbutton"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <!--商城-->
+            <RelativeLayout
+                android:id="@+id/rl_store"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_store"
+                    style="@style/MMTabButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/btn_selected_ecshop"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="11.5dip"
+                    android:scaleType="matrix"
+                    android:text="商城"
+                    android:textColor="@color/colorbutton"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <!--我的-->
+            <RelativeLayout
+                android:id="@+id/rl_mine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_mine"
+                    style="@style/MMTabButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/btn_selected_mine"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="11.5dip"
+                    android:scaleType="matrix"
+                    android:text="我的"
+                    android:textColor="@color/colorbutton"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_lin"
+        android:layout_alignParentLeft="true"></RelativeLayout>
+
+
+</RelativeLayout>

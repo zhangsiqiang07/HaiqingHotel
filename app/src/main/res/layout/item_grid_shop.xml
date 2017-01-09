@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/shop_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_150"
+            android:layout_marginLeft="@dimen/activity_size_10"
+            android:layout_marginRight="@dimen/activity_size_10"
+            android:layout_marginTop="@dimen/activity_size_10"
+            android:background="@drawable/icon_error"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/shop_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_size_10"
+        android:layout_marginLeft="@dimen/activity_size_10"
+        android:text="商品名"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/shop_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_size_10"
+        android:layout_marginLeft="@dimen/activity_size_10"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="dsadasdasdasdasd"/>
+
+
+    <TextView
+        android:id="@+id/shop_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_size_10"
+        android:layout_marginLeft="@dimen/activity_size_10"
+        android:text="¥666/斤"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+</LinearLayout>

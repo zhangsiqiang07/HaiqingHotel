@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_size_150"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+        <ImageView
+            android:id="@+id/shop_iv_pic"
+            android:layout_width="@dimen/activity_size_120"
+            android:layout_height="@dimen/activity_size_120"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/shop_tv_name"
+            android:layout_width="@dimen/activity_size_200"
+            android:layout_height="wrap_content"
+            android:text="商品名称"
+            android:textSize="@dimen/activity_size_18"
+            android:textColor="@color/blue"
+            android:layout_marginTop="@dimen/activity_size_20"/>
+
+            <TextView
+                android:id="@+id/shop_tv_descrip"
+                android:layout_width="@dimen/activity_size_200"
+                android:layout_height="wrap_content"
+                android:text="商品介绍"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textSize="@dimen/activity_size_15"
+                android:layout_marginTop="@dimen/activity_size_5"/>
+            <TextView
+                android:id="@+id/shop_tv_price"
+                android:layout_width="@dimen/activity_size_200"
+                android:layout_height="wrap_content"
+                android:text="¥666/斤"
+                android:textColor="@color/homepage_orange"
+                android:textSize="@dimen/activity_size_25"
+                android:layout_marginBottom="@dimen/activity_size_15"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

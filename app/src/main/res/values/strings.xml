@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">青岛海情大酒店</string>
+
+    <string name="space">&#160;</string>
+    <string name="enter">\n</string>
+
+    <!-- LoginActivity -->
+    <string name="login">登 录</string>
+    <string name="quit">退 出</string>
+    <string name="save">保 存</string>
+    <string name="pay">立即支付</string>
+    <string name="areaCode">+86</string>
+    <string name="password">密码</string>
+    <string name="register_ask">你还没有账号？</string>
+    <!--<string name="register">立即注册</string>-->
+    <string name="forget_pwd">忘记密码？</string>
+    <!--登录界面-->
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_input_phoNum">请输入手机号</string>
+    <string name="btn_input_password">请输入密码</string>
+    <string name="btn_retrieve_password">找回密码</string>
+    <string name="btn_phoNum_login">手机号快捷登录</string>
+
+    <!--注册界面-->
+
+    <string name="register">注册</string>
+    <!--首页-->
+    <string name="home_menu_text0">入住</string>
+    <string name="home_menu_text1">2天</string>
+    <string name="home_menu_text2">离店</string>
+    <string name="home_btn_reserve_now">立即预定</string>
+    <string name="home_btn_location">酒店位置</string>
+    <string name="home_btn_contact_us">联系我们</string>
+    <string name="home_btn_hotel_details">酒店详情</string>
+    <string name="home_line_onsale">当前促销</string>
+    <string name="home_booking_now_details">房间详情</string>
+    <string name="home_catering_details">商品描述</string>
+    <string name="home_catering_set_meal">套餐内容</string>
+    <string name="home_catering_standard">规格</string>
+    <string name="home_catering_unit_price">单价</string>
+    <string name="home_catering_price">价值：</string>
+    <string name="home_catering_pre_price">优惠价：</string>
+
+    <!--商城-->
+    <string name="shop_title">商城</string>
+
+
+    <!--设施-->
+    <string name="facility_title">设施和资讯</string>
+    <string name="facility_room_title">房间设施</string>
+    <string name="facility_wedding_title">房间设施</string>
+    <string name="facility_meeting_title">会议设施</string>
+    <string name="facility_catering_title">餐饮设施</string>
+
+
+    <!--我的-->
+
+    <string name="mine_btn_collect">收藏</string>
+    <string name="mine_btn_shopping_cart">购物车</string>
+    <string name="mine_btn_message_center">消息中心</string>
+    <string name="mine_item_reserve">酒店预订</string>
+    <string name="mine_item_order_form">商城订单</string>
+    <string name="mine_item_vip_rank">会员积分</string>
+    <string name="mine_title_orderRoom">我的预订</string>
+    <string name="mine_title_roomDetails">房间详情</string>
+    <string name="mine_title_cateringDetails">餐饮详情</string>
+    <string name="mine_title_shopDetails">订单详情</string>
+    <string name="mine_title_setting">设置</string>
+    <string name="mine_btn_password">修改密码</string>
+    <string name="mine_btn_clean">缓存清除</string>
+    <string name="mine_btn_about">关于我们</string>
+    <string name="mine_btn_exit">退出登录</string>
+    <string name="mine_title_change_password">修改密码</string>
+    <string name="mine_btn_confirm_change">确认修改</string>
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+    <string name="pushmsg_center_pull_up_text">松开加载更多</string>
+    <string name="pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="pushmsg_center_pull_release_text">松开获取更多</string>
+    <string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+    <string name="pushmsg_center_load_more_ongoing_text">正在加载中</string>
+    <string name="xsearch_loading">正在加载中…</string>
+    <string name="pull_to_refresh_header_hint_normal">@string/pushmsg_center_pull_down_text</string>
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以加载</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后加载</string>
+    <string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string>
+    <string name="pull_to_refresh_header_last_time">@string/pushmsg_center_pull_down_update_time</string>
+    <string name="pull_to_refresh_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_no_more_data">@string/pushmsg_center_no_more_msg</string>
+    <string name="pull_to_refresh_network_error">网络不给力，请检查网络</string>
+</resources>

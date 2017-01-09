@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray2"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_top"></include>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_size_40"
+                android:layout_marginTop="@dimen/activity_size_12"
+                android:background="@color/whilte">
+
+                <TextView
+                    android:id="@+id/shop_tv_good_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/activity_size_10"
+                    android:text="东方珍贵海参"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/activity_size_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_size_1"
+                android:background="@color/whilte"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/buy_pic"
+                        android:layout_width="@dimen/activity_size_80"
+                        android:layout_height="@dimen/activity_size_80"
+                        android:layout_margin="@dimen/activity_size_5"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/activity_size_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/shop_tv_good_intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="海参海参，海参海参，，海参海参海参海参海参海参，"
+                        android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/shop_tv_good_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_margin="@dimen/activity_size_5"
+                            android:text="¥656"
+                            android:textColor="@color/homepage_orange"
+                            android:textSize="@dimen/activity_size_25" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_40"
+            android:layout_marginTop="@dimen/activity_size_50"
+            android:background="@color/whilte">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:gravity="center_vertical"
+                android:text="数量"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/activity_size_15">
+
+                <!--加减选择-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/shop_tv_sub"
+                        android:layout_width="@dimen/activity_size_20"
+                        android:layout_height="@dimen/activity_size_30"
+                        android:background="@color/gray2"
+                        android:gravity="center"
+                        android:text="—"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/activity_size_20" />
+
+                    <TextView
+                        android:id="@+id/shop_tv_number"
+                        android:layout_width="@dimen/activity_size_30"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/activity_size_20" />
+
+                    <TextView
+                        android:id="@+id/shop_tv_add"
+                        android:layout_width="@dimen/activity_size_20"
+                        android:layout_height="@dimen/activity_size_30"
+                        android:background="@color/gray2"
+                        android:gravity="center"
+                        android:text="+"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/activity_size_20" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_40"
+            android:layout_marginTop="@dimen/activity_size_1"
+            android:background="@color/whilte">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:gravity="center_vertical"
+                android:text="联系人"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <EditText
+                android:id="@+id/shop_et_name"
+                android:layout_width="@dimen/activity_size_300"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请点击输入联系人"
+                android:paddingRight="@dimen/activity_size_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/activity_size_15" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_40"
+            android:layout_marginTop="@dimen/activity_size_1"
+            android:background="@color/whilte">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:gravity="center_vertical"
+                android:text="房间号"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <EditText
+                android:id="@+id/shop_et_room"
+                android:layout_width="@dimen/activity_size_300"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请点击输入房间号"
+                android:paddingRight="@dimen/activity_size_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/activity_size_15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_40"
+            android:layout_marginTop="@dimen/activity_size_1"
+            android:background="@color/whilte">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:gravity="center_vertical"
+                android:text="手机号"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <EditText
+                android:id="@+id/shop_et_phoNum"
+                android:layout_width="@dimen/activity_size_300"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请点击输入手机号"
+                android:inputType="number"
+                android:paddingRight="@dimen/activity_size_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/activity_size_15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_size_40"
+            android:layout_marginTop="@dimen/activity_size_1"
+            android:background="@color/whilte">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_size_10"
+                android:gravity="center_vertical"
+                android:text="备注"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15" />
+
+            <EditText
+                android:id="@+id/shop_et_remark"
+                android:layout_width="@dimen/activity_size_300"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/home_booking_remark"
+                android:gravity="center_vertical"
+                android:hint="请点击输入备注"
+                android:paddingRight="@dimen/activity_size_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/activity_size_15" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:background="@color/whilte">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="总价："
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_size_20"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            />
+
+        <TextView
+            android:id="@+id/shop_tv_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="498"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/activity_size_20"
+            android:gravity="center_vertical"
+            android:layout_weight="1.5"
+            />
+
+        <Button
+            android:id="@+id/shop_btn_booking_now"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="立即预定"
+            android:textColor="@color/whilte"
+            android:textSize="@dimen/activity_size_20"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/homepage_orange"
+            />
+
+    </LinearLayout>
+</LinearLayout>

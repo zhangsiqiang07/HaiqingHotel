@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="black1">#4d4d4d</color>
+    <color name="canlendar_text_color">#323232</color>
+    <color name="view_color">#dfdfdf</color>
+    <color name="red">#eb382f</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#34be67</color>
+    <color name="white">#ffffff</color>
+    <color name="whilte">#ffffff</color>
+    <color name="gray">#b3b3b3</color>
+    <color name="gray2">#e5e5e5</color>
+    <color name="gray3">#4f5555</color>
+    <color name="blue">#2db3f8</color>
+    <color name="main_ground_color">#eff2f7</color>
+    <color name="title_color">#ffffffff</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <drawable name="color_red">#eb382f</drawable>
+    <drawable name="color_white">#ffffff</drawable>
+    <drawable name="color_black">#000000</drawable>
+    <drawable name="color_blue">#2db3f8</drawable>
+    <drawable name="color_green">#34be67</drawable>
+    <!--首页上方蓝色、文字蓝色-->
+    <color name="homepage_top_bule">#00aeff</color>
+    <color name="homepage_orange">#FF8B30</color>
+
+</resources>
